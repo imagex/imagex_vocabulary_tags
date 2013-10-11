@@ -6,6 +6,5 @@ version = 7.x-1.0
 project = imagex_vocabulary_tags
 dependencies[] = features
 dependencies[] = taxonomy
-features[features_api][] = api:2
-features[field_base][] = field_tags
+features[features_api][] = api:1
 features[taxonomy][] = tags
