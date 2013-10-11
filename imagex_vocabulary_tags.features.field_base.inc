@@ -5,7 +5,7 @@
  */
 
 /**
- * Implements hook_field_default_field_bases().
+ * Implements hook_field_default_field_bases(). 
  */
 function imagex_vocabulary_tags_field_default_field_bases() {
   $field_bases = array();
