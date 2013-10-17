@@ -1,4 +1,4 @@
-name = ImageX - Vocabulary: Tags
+name = Vocabulary Tags
 description = Simple tags taxonomy vocabulary.
 core = 7.x
 package = ImageX
@@ -7,5 +7,4 @@ project = imagex_vocabulary_tags
 dependencies[] = features
 dependencies[] = taxonomy
 features[features_api][] = api:2
-features[field_base][] = field_tags
 features[taxonomy][] = tags
