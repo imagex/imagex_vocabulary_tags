@@ -14,7 +14,7 @@ The following listed modules and libraries below are required dependencies of th
 
 ### Known Issues
 
-* The Taxonony Access Fix module exports the user permissions in a non-portable form and makes use of the vocabulary's ID. This problem is known, the exported Taxonomy Access Fix portion of the featurized export has been commented out until this problem is resolved. **(Reported by [@amcgowanca](http://github.com/amcgowanca) on 10/17/2013)**
+* The Taxonony Access Fix module exports the user permissions in a non-portable form and makes use of the vocabulary's ID. This problem is known, the exported Taxonomy Access Fix portion of the featurized export has been commented out until this problem is resolved. *(Reported by [@amcgowanca](http://github.com/amcgowanca) on 10/17/2013)*
 
 ## License
 
