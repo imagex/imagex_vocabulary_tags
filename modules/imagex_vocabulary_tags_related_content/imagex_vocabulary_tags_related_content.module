@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the imagex_vocabulary_tags_related_content feature.
+ */
+
+include_once 'imagex_vocabulary_tags_related_content.features.inc';
