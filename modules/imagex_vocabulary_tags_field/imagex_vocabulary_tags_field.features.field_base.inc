@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * imagex_vocabulary_tags.features.field_base.inc
+ * imagex_vocabulary_tags_field.features.field_base.inc
  */
 
 /**
