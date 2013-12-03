@@ -10,4 +10,3 @@ dependencies[] = imagex_vocabulary_tags
 dependencies[] = taxonomy
 features[features_api][] = api:2
 features[field_base][] = field_tags
-features[taxonomy][] = forums
