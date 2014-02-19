@@ -8,7 +8,7 @@
  * Implements hook_taxonomy_default_vocabularies().
  */
 function imagex_vocabulary_tags_taxonomy_default_vocabularies() {
-  return array(
+  $taxonomy = array(
     'tags' => array(
       'name' => 'Tags',
       'machine_name' => 'tags',
@@ -33,4 +33,8 @@ function imagex_vocabulary_tags_taxonomy_default_vocabularies() {
       ),
     ),
   );
+
+  features_alter_code('taxonomy', $taxonomy);
+
+  return $taxonomy;
 }
