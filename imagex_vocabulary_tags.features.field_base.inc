@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * imagex_vocabulary_tags_field.features.field_base.inc
+ * imagex_vocabulary_tags.features.field_base.inc
  */
 
 /**
@@ -10,7 +10,6 @@
 function imagex_vocabulary_tags_field_default_field_bases() {
   $field_bases = array();
 
- 
   // Exported field_base: 'field_tags'
   $field_bases['field_tags'] = array(
     'active' => 1,
@@ -44,6 +43,8 @@ function imagex_vocabulary_tags_field_default_field_bases() {
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
   );
- 
+
+  features_alter_code('field_base', $field_bases);
+
   return $field_bases;
 }

@@ -1,10 +1,11 @@
 name = Vocabulary Tags
-description = Simple tags taxonomy vocabulary.
+description = Simple tags taxonomy vocabulary and autocomplete tagging field.
 core = 7.x
 package = ImageX
-version = 7.x-1.0
+version = 7.x-1.1
 project = imagex_vocabulary_tags
 dependencies[] = features
 dependencies[] = taxonomy
 features[features_api][] = api:2
+features[field_base][] = field_tags
 features[taxonomy][] = tags
